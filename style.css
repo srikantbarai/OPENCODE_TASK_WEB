@@ -1,0 +1,150 @@
+*{
+    padding:0;
+    margin:0
+}
+    body{
+    background-image: url(img1.jpg);
+    background-size:cover;
+}
+.navbar{    
+    height: 55px;
+    background-color: #e1aa74;
+    border-width: 5px;
+    border-style: outset;
+    border-radius: 20px;
+    margin:10px;
+}
+.heading{
+    color: #192655;
+    font-size:40px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align:center;
+    margin-top:10px ;
+    margin-right: 300px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+}
+.navbut{
+    height:fit-content;
+    width:fit-content;
+    color: #192655;
+    font-size: 25px;
+    font-family:cursive;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    border-width:2px;
+    border-style: double;
+    border-color: #e1aa74;
+    border-radius:10px;
+    margin-left:20px;
+    margin-right:20px;
+}
+.navbut:hover{
+    background-color:#f3f0ca;
+    border-width:2px;
+    border-style: double;
+    border-color: #192655;
+}
+.page{
+    height: 50px;
+    width: 300px;
+    color:#f3f0ca;
+    background-color: #3876bf;
+    font-size:40px;
+    font-weight: 100;
+    text-align: center;
+    border-width: 5px;
+    border-style:groove;
+    border-color: black;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 65px;
+}
+.homepg{
+    display:inline-block;
+}
+#welcometext{
+    height: 70px;
+    width: 500px;
+    color:#192655;
+    background-color: #f3f0ca;
+    font-size: 20px;
+    font-weight: 50;
+    border-width: 5px;
+    border-style:ridge;
+    border-color: #192655;
+    padding:30px;
+    margin-left:200px;
+    margin-right:120px;
+}
+#indimg {
+    height: 280px;
+    width: 240px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+}
+#indfooter{
+    text-align: center;
+    text-decoration:solid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    margin-top:120px;
+}
+#abouttext{
+    height: 140px;
+    color:#192655;
+    background-color: #f3f0ca;
+    font-size: 20px;
+    font-weight: 50;
+    border-width: 5px;
+    border-style:ridge;
+    border-color: #192655;
+    padding:30px;
+    margin-top: 40px;
+    margin-left:120px;
+    margin-right:120px;
+}
+.portfoliopg{
+    display:inline-flex;
+}
+#portfoliotext{
+    height: 280px;
+    width:955px;
+    color:#192655;
+    background-color: #f3f0ca;
+    font-size: 20px;
+    font-weight: 50;
+    border-width: 5px;
+    border-style:ridge;
+    border-color: #192655;
+    padding:30px;
+    margin-top: 40px;
+    margin-left:80px;
+    margin-right: 25px;
+}
+#portfolioimg {
+    height: 170px;
+    width: 140px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+}
+#contacttext{
+    height: 160px;
+    color:#192655;
+    background-color: #f3f0ca;
+    font-size: 20px;
+    font-weight: 50;
+    border-width: 5px;
+    border-style:ridge;
+    border-color: #192655;
+    padding:30px;
+    margin-top: 40px;
+    margin-left:120px;
+    margin-right:120px;
+}
